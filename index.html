@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calc">
+      <div
+        class="screen"
+        style="
+          grid-area: sc;
+          border-radius: 7px;
+          border: none;
+          outline: none;
+          direction: rtl;
+          padding-right: 5px;
+          font-size: 20px;
+          cursor: default;
+          background-color: white;
+          display: flex;
+          color: rgba(0, 0, 0, 0.422);
+          align-items: center;
+        "
+      >
+        0
+      </div>
+      <div class="delete non-signs buttons" style="grid-area: D">&#8592;</div>
+      <div class="dot non-signs buttons" style="grid-area: do">.</div>
+      <div class="C non-signs buttons" style="grid-area: C">C</div>
+      <div class="equal buttons" data-id="signs" style="grid-area: equal">
+        =
+      </div>
+      <div class="plus buttons" data-id="signs" style="grid-area: plus">+</div>
+      <div class="minus buttons" data-id="signs" style="grid-area: minus">
+        -
+      </div>
+      <div class="divide buttons" data-id="signs" style="grid-area: divide">
+        &#247;
+      </div>
+      <div class="mult buttons" data-id="signs" style="grid-area: mult">x</div>
+      <div class="zero non-signs buttons" data-id="nums" style="grid-area: zer">
+        0
+      </div>
+      <div class="one non-signs buttons" data-id="nums" style="grid-area: one">
+        1
+      </div>
+      <div class="two non-signs buttons" data-id="nums" style="grid-area: two">
+        2
+      </div>
+      <div
+        class="three non-signs buttons"
+        data-id="nums"
+        style="grid-area: three"
+      >
+        3
+      </div>
+      <div
+        class="four non-signs buttons"
+        data-id="nums"
+        style="grid-area: four"
+      >
+        4
+      </div>
+      <div
+        class="five non-signs buttons"
+        data-id="nums"
+        style="grid-area: five"
+      >
+        5
+      </div>
+      <div class="six non-signs buttons" data-id="nums" style="grid-area: six">
+        6
+      </div>
+      <div
+        class="seven non-signs buttons"
+        data-id="nums"
+        style="grid-area: seven"
+      >
+        7
+      </div>
+      <div
+        class="eight non-signs buttons"
+        data-id="nums"
+        style="grid-area: eight"
+      >
+        8
+      </div>
+      <div
+        class="nine non-signs buttons"
+        data-id="nums"
+        style="grid-area: nine"
+      >
+        9
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

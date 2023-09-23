@@ -1,0 +1,57 @@
+/* animations */
+@keyframes bodyGrad {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
+/* end of animation */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calculator", sans-serif;
+  font-weight: 700;
+}
+body {
+  height: 100vh;
+  background-color: rgba(23, 23, 23, 0.991);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc {
+  padding: 10px;
+  width: 200px;
+  height: 370px;
+  background-color: rgba(255, 255, 255, 0.269);
+  border-radius: 7px;
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+  grid-gap: 5px;
+  grid-template-areas:
+    "sc sc sc sc"
+    "C C D divide"
+    "seven eight nine mult"
+    "four five six minus"
+    "one two three plus"
+    "zer zer do equal";
+}
+.non-signs {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+[data-id="signs"] {
+  background-color: rgb(25, 25, 25);
+  outline: 1px solid rgb(145, 124, 2);
+  color: rgb(145, 124, 2);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 7px;
+}
