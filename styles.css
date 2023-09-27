@@ -36,9 +36,9 @@ body {
     green 15px
   );
   background-size: 200%;
-  height: 370px;
+  height: 470px;
   padding: 10px;
-  width: 200px;
+  width: 270px;
   border-radius: 7px;
   display: grid;
   grid-template: repeat(6, 1fr) / repeat(4, 1fr);
