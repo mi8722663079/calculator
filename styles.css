@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 .calc {
-  animation: bodyGrad 10s linear infinite;
+  animation: bodyGrad 15s linear infinite;
   background: repeating-linear-gradient(
     to right,
     rgba(0, 128, 0, 0.343),
